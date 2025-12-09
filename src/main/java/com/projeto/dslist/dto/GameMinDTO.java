@@ -16,6 +16,7 @@ public class GameMinDTO {
 
     }
 
+
     public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();
