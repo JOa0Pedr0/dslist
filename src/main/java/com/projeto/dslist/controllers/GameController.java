@@ -5,6 +5,7 @@ import com.projeto.dslist.dto.GameMinDTO;
 import com.projeto.dslist.entities.Game;
 import com.projeto.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -26,5 +27,6 @@ public class GameController {
     public List<GameMinDTO> findAll(){
         return gameService.findAll();
     }
+    
 
 }
